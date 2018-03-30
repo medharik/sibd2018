@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="la description de votre site....">
+	<title>titre de la page </title>
+	     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	     <script type="text/javascript" src="css/data.js"></script>
+	     <link rel="stylesheet" type="text/css" href="css/data.css">
+</head>
+<body>
+	<a name="ifiag"></a>
+
+	<a href="#bas">BAS de la page</a>
+<p>
+	<strong>Lorem ipsum dolor sit amet,</strong><b> consectetur adipisicing elit</b>, <small>sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</small>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quos consequuntur ratione. Doloremque debitis, aliquid reiciendis totam autem ducimus, iure, aspernatur quis quas vel nihil porro nesciunt animi cumque beatae?
+	<em>quis nostrud exercitation</em> ullamco laboris nisi ut aliquip ex ea commodo
+	<u>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</u>
+	<strong><u><em> test</em></u></strong>
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</p>
+<!-- p>u*3>strong*2 -->
+<details>
+	<summary>
+		sommaire
+	</summary>
+	<div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore deserunt similique voluptatum, magni itaque, laborum quisquam a quibusdam animi sunt reprehenderit culpa veritatis magnam unde nam hic, nulla voluptatem. Voluptate.
+	</div>
+
+</details>
+<h2>les liens  a </h2>
+<a href="http://www.google.com"  target="_blank">recherche en ligne</a><<br>
+<a href="vip.html">VIP</a>
+<br>
+<a href="cours/caisse.doc" target="_blank">Cours pdf</a><br>
+<a href="#ifiag">HAUT (ancre nommé anchor)</a>
+
+<a name="bas"></a>
+<h2>images </h2>
+<img src="images/Koala.jpg" alt="fleur" title="un title" width="100" >
+<h2>les tableaux : table>tr(table row ligne table) > td(cellule table data) ou th(table head)</h2>
+<table border="1" align="center" width="300" id="tab">
+
+	<thead>
+	<tr>
+		<th>produit</th>
+		<th>prix</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>hp</td>
+		<td>3000</td>
+	</tr>
+	<tr>
+		<td>dell</td>
+		<td>10000</td>
+	</tr>
+	<tr>
+		<td>produit 1</td>
+		<td>5001</td>
+	</tr>
+	<tr>
+		<td>produit 2</td>
+		<td>5002</td>
+	</tr>
+	<tr>
+		<td>produit 3</td>
+		<td>5003</td>
+	</tr>
+	<tr>
+		<td>produit 4</td>
+		<td>5004</td>
+	</tr>
+	<tr>
+		<td>produit 5</td>
+		<td>5005</td>
+	</tr>
+	<tr>
+		<td>produit 6</td>
+		<td>5006</td>
+	</tr>
+	<tr>
+		<td>produit 7</td>
+		<td>5007</td>
+	</tr>
+	<tr>
+		<td>produit 8</td>
+		<td>5008</td>
+	</tr>
+	<tr>
+		<td>produit 9</td>
+		<td>5009</td>
+	</tr>
+	<tr>
+		<td>produit 10</td>
+		<td>5010</td>
+	</tr>
+</tbody>
+
+
+</table>
+<h2>fusion / division table</h2>
+<table align="center" border="1" width="300">
+<tr>
+		<td>a</td>
+		<td colspan="2">b</td>
+		
+	</tr>
+	<tr>
+		<td>d</td>
+		<td rowspan="2" align="center" valign="bottom">e</td>
+		<td>f</td>
+	</tr>
+	<tr>
+		<td>g</td>
+		
+		<td>i</td>
+	</tr>	
+
+</table>
+<h2>les listes </h2>
+<h3>les listes non ordonnées unordered list (ul) > li (list item)</h3>
+<ul>
+	<li>élément 1</li>
+	<li>élément 2</li>
+	<li>élément 3</li>
+</ul>
+<h3>les listes  ordonnées ordered list (ol) > li (list item)</h3>
+<ol>
+	<li>élément 1</li>
+	<li>élément 2</li>
+	<li>élément 3</li>
+</ol>
+<h3>les definitions list (dl)</h3>
+<dl>
+	<dt>sport</dt>
+	<dd>tennis</dd>
+	<dd>foot</dd>
+	<dt>sport 2</dt>
+	<dd>bascket</dd>
+	<dd>Golf</dd>
+</dl>
+<script type="text/javascript">
+	$(document).ready( function () {
+    $('#tab').DataTable();
+} );
+</script>
+</body>
+</html>
