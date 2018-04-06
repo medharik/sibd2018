@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>les formulaires | Contrôles standards</title>
+	<title>les formulaires | Contrôles standards + enrichies (HTML 5)</title>
 </head>
 <body>
 
 	<form action="destination.html">
+		<fieldset>
+			<legend align="center">Inscription en ligne</legend>
 	<table border="0" align="center" cellpadding="10">
 		<tr>
-			<td>Email : </td>
-			<td><input type="text" name="email"  id="email"  ></td>
+			<td>Email (*): </td>
+			<td><input type="email" name="email" placeholder="Email..."  id="email"  required="" ></td>
 		</tr>
 		<tr>
 		<td>Mot de passe : </td>
-		<td> <input type="password" name="passe" id="passe"></td>
+		<td> <input type="password" name="passe" size="50" id="passe" placeholder="Mot de passe commençant par une lettre"></td>
 		</tr>
 			<tr>
 		<td>Couleurs preférées : </td>
@@ -28,7 +30,7 @@
 		</tr>
 			<tr>
 			<td>Adresse : </td>
-			<td><textarea name="adresse" id="adresse"></textarea></td>
+			<td><textarea name="adresse" id="adresse" cols="20" rows="4"></textarea></td>
 		</tr>
 		<tr>
 			<td>Domaine prof. : </td>
@@ -50,12 +52,39 @@
 		<td><label for="homme"> Homme </label><input type="radio" name="sexe" id="homme" value="homme"> 
 			<label for="femme">Femme</label> <input type="radio" name="sexe" id="femme" value="femme"></td>
 		</tr>
+<tr>
+	<td><label for="">Salaire (*)</label></td>
+	<td><input type="number" id="salaire" name="salaire"  min="1000" max="10000" required=""></td>
+</tr>
+<tr>
+	<td><label for="daten">Date de naissance : </label></td>
+	<td><input type="date" name="date" id="daten"></td>
+</tr>
+<tr>
+	<td><label for="">Couleur preferee</label></td>
+	<td><input type="color"></td>
+</tr>
+<tr>
+	<td><label for="">Interval</label></td>
+	<td><input type="range" min="10" max="100" step="10" ></td>
+</tr>
+<tr>
+	<td><label for="ville">Ville </label></td>
+	<td><input type="text" list="nosvilles" id="ville" name="ville" >
+<datalist id="nosvilles">
+	<option value="Casa"></option>
+	<option value="rabat"></option>
+</datalist>
+	</td>
+</tr>
+
 		<tr>
 		<td><input type="reset" value="rétablir" ><input type="button" value="à programmer" ></td>
 		<td><input type="submit" value="Connexion" ></td>
 		
 		</tr>
 	</table>
+</fieldset>
 	</form>
 	
 </body>
