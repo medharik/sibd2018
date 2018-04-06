@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>les formulaires | Contrôles standards</title>
+</head>
+<body>
+
+	<form action="destination.html">
+	<table border="0" align="center" cellpadding="10">
+		<tr>
+			<td>Email : </td>
+			<td><input type="text" name="email"  id="email"  ></td>
+		</tr>
+		<tr>
+		<td>Mot de passe : </td>
+		<td> <input type="password" name="passe" id="passe"></td>
+		</tr>
+			<tr>
+		<td>Couleurs preférées : </td>
+		<td> <label for="rouge">Rouge</label><input type="checkbox" name="rouge" id="rouge" value="rouge">
+<label for="vert">vert</label><input type="checkbox" name="vert" id="vert" value="vert">
+		</td>
+		</tr>
+		<tr>
+			<td>Cv</td>
+			<td><input type="file" name="cv" id="cv"></td>
+		</tr>
+			<tr>
+			<td>Adresse : </td>
+			<td><textarea name="adresse" id="adresse"></textarea></td>
+		</tr>
+		<tr>
+			<td>Domaine prof. : </td>
+			<td>
+<select name="domaine[]" id="d" size="3" multiple="">
+	<option value="info">Info</option>
+	<option value="gstion">Gestion</option>
+	<option value="info">Formation</option>
+	<option value="gstion">Marketing</option>
+</select>
+			</td>
+		</tr>
+			<tr>
+			<td>Cv</td>
+			<td><input type="file" name="cv" id="cv"></td>
+		</tr>
+		<tr>
+		<td>  </td>
+		<td><label for="homme"> Homme </label><input type="radio" name="sexe" id="homme" value="homme"> 
+			<label for="femme">Femme</label> <input type="radio" name="sexe" id="femme" value="femme"></td>
+		</tr>
+		<tr>
+		<td><input type="reset" value="rétablir" ><input type="button" value="à programmer" ></td>
+		<td><input type="submit" value="Connexion" ></td>
+		
+		</tr>
+	</table>
+	</form>
+	
+</body>
+</html>
