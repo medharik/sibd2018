@@ -11,9 +11,8 @@ body{
 	background: #EEEEEE;
 	width: 80%;
 	margin:auto;
-
 }
- p{
+ p{text-align:  justify;
  	border: 1px solid black;
  	padding: 10px;
  	text-indent: 20px;
@@ -31,3 +30,16 @@ border: 2px black solid;
 padding: 10px ;
 color: white;
  }
+
+p img{
+	float: left;
+	width: 200px;
+	margin-right: 10px;
+}
+.imageprincipal{
+	width: 500px;
+} 
+.intro{
+	background: black;
+	color: white;
+ /* les classes : éléments de style appliqués à plusieurs élements html( une classe d'éléments  html) */}
