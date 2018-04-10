@@ -1,0 +1,33 @@
+h1, h2{
+	color: red;
+	background: yellow;
+	text-align: center;
+	font-size: 30px;/*  !important; */
+}
+h1{
+	font-size: 40px;
+}
+body{
+	background: #EEEEEE;
+	width: 80%;
+	margin:auto;
+
+}
+ p{
+ 	border: 1px solid black;
+ 	padding: 10px;
+ 	text-indent: 20px;
+ }
+ ul{
+ 	list-style: none;
+ 	background: green;
+ width: 300px;
+ margin:auto; /* pour centrer une zone */
+ text-align: center;/*pour centrer le contenu (text, image, video)*/
+ padding-left: 0;
+ }
+ ul li{
+border: 2px black solid;
+padding: 10px ;
+color: white;
+ }
