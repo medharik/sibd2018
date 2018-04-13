@@ -1,0 +1,28 @@
+#entete{
+height: 200px;
+}
+#contenu{
+min-height: 400px;
+}
+#pied{
+height: 100px;
+} /* inline et block */
+.b{
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+.largeur{
+	width: 1000px;
+	margin:auto;
+}
+#logo{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+
+}
+#infos{
+	display: inline-block;
+	width:790px;
+	height: 200px; 
+}
