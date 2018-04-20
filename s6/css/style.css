@@ -1,0 +1,13 @@
+.col-sm-4 h3{
+text-align: center;
+
+}
+.col-sm-4 p{
+text-align: justify;
+
+}
+
+.footer{
+	background: black;
+	height: 200px;
+}
